@@ -1,0 +1,10 @@
+name: Primer Workflow
+on: workflow_dispatch
+jobs:
+  primer-job:
+    runs-on: windows-latest
+    steps:
+      - name: Print geeting
+        run: echo "hello world"
+      - name: Print goodbye
+        run: echo "done - bye!"
